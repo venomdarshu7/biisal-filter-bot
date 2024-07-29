@@ -2,7 +2,7 @@ pyrofork
 tgcrypto
 pymongo
 motor
-marshmallow==3.141
+marshmallow==3.14.1
 umongo
 git+https://github.com/Joelkb/cinemagoer
 Heroku3
