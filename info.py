@@ -34,7 +34,7 @@ DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001586622410'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Movie_Url_link_downloader/17")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
@@ -72,7 +72,7 @@ IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 SPELL_CHECK = is_enabled('SPELL_CHECK', True)
-LINK_MODE = is_enabled('LINK_MODE', False)
+LINK_MODE = is_enabled('LINK_MODE', True)
 SETTINGS = {
             'spell_check': SPELL_CHECK,
             'auto_filter': AUTO_FILTER,
