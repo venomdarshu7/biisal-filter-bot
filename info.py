@@ -13,11 +13,11 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '1287772731'))
+API_ID = int(environ.get('API_ID', '20738979'))
 API_HASH = environ.get('API_HASH', 'a6d015153068a35390a336fe0a38dd64')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1287772731').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/DRN_BOSS")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001586622410'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+9_5-hsKvamJiMmVl')
